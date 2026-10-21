@@ -1,4 +1,4 @@
-import { Modalka } from '/'
+import { Modalka } from './Modalka';
 
 export const App = () => {
 
@@ -16,6 +16,7 @@ export const App = () => {
     // >
       // React homework template
     <div>  
+        <Modalka/>
     </div>
   );
 };
