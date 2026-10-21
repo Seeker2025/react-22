@@ -1,0 +1,1 @@
+export { Modalka } from './Modalka';
