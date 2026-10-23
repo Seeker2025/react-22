@@ -13,7 +13,13 @@ import Forest03s  from '../assets/forest03s.png';
 
 export const App = () => {
 
-  //  const [ images, setImages ] = useState([
+  /*
+      const [ images, setImages ] = useState([
+        { preview: Forest01s, large: Forest01 },
+        { preview: Forest02s, large: Forest02 },
+        { preview: Forest03s, large: Forest03 },
+  ]);
+  */
       const images = [
         { preview: Forest01s, large: Forest01 },
         { preview: Forest02s, large: Forest02 },
