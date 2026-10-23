@@ -1,9 +1,9 @@
-// import styled from "styled-components";
+import styled from "styled-components";
 import { RiCloseCircleFill } from "react-icons/ri";
 
 export const LargeImg = styled.div`
     position: relative;
-    width: 30%;
+    width: 370px;
     height: 150px;
     border: 3px solid #4d2525;
     overflow: hidden;
