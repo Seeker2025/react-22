@@ -1,4 +1,4 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 import { RiCloseCircleFill } from "react-icons/ri";
 
 export const LargeImg = styled.div`

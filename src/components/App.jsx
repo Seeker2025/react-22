@@ -1,5 +1,5 @@
 // import { Modalka         } from './Modalka';
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 
 import { Cross, LargeImg, CloseButton } from './App.styled';
 
