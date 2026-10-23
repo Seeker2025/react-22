@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 import { Cross, LargeImg, CloseButton } from './App.styled';
 
-
 import Forest01   from '../assets/forest01.png';
 import Forest01s  from '../assets/forest01s.png';
 import Forest02   from '../assets/forest02.png';
@@ -18,7 +17,7 @@ export const App = () => {
         { preview: Forest01s, large: Forest01 },
         { preview: Forest02s, large: Forest02 },
         { preview: Forest03s, large: Forest03 },
-  ]);
+      ]);
   */
       const images = [
         { preview: Forest01s, large: Forest01 },
@@ -27,13 +26,15 @@ export const App = () => {
     ];
 
   const [ selectedImageUrl, setSelectedImageUrl ] = useState(null); 
-
+  // setSelectedImageUrl(item.large);
     return (
   
     <div>  
+
         {/* <img src={Forest} alt="Forest" /> */}
         {/* <img src={ForestS} alt="Forest" /> */}
         <List items={images} onSelect = {setSelectedImageUrl}/>
+
         {selectedImageUrl
         &&
         <Modal url = {selectedImageUrl}
@@ -42,7 +43,6 @@ export const App = () => {
         }
         {/* {selectedImageUrl && <p>This is Modal</p>} */}
 
-        
     </div>
   )
 };
