@@ -1,1 +1,1 @@
-export { Modalka } from './Modalka';
+export { Modalka01 } from './Modalka';
